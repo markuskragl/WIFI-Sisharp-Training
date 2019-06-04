@@ -8,8 +8,13 @@ namespace WIFI.Sisharp.Training
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            var AppKontext = new WIFI.Anwendung.Anwendungskontext();
+
+            System.Console.ReadLine();
         }
+
+
     }
 }

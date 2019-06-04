@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WIFI.Sisharp.Training.Schnittstellen.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Training.Schnittstellen.ODDEVEN">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAACAAAAAAAIAACAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.IOne">
+    <Position X="5.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.ITwo">
+    <Position X="8" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.IThree">
+    <Position X="8" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.IFour">
+    <Position X="5.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.IEVEN">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WIFI.Sisharp.Training.Schnittstellen.IFive">
+    <Position X="10.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>OddEven.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

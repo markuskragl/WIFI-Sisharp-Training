@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Object">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Entwicklungsbasis">
+    <Position X="3" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="_Anwendungsverzeichnis" Hidden="true" />
+      <Field Name="_Zufallsgenerator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAgAAAAAAAAAAAAAAApAAAAAAAAAAAA=</HashCode>
+      <FileName>Entwicklungsbasis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Anwendung">
+    <Position X="0.5" Y="4" Width="2" />
+    <Members>
+      <Field Name="_MenüInhalt" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAA=</HashCode>
+      <FileName>Anwendung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Algorithmus">
+    <Position X="3" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAAgAAgAAAAAAAAEAAAAAAAAAAAAAAQAAAAAU=</HashCode>
+      <FileName>Algorithmus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Textdatei">
+    <Position X="5.5" Y="4" Width="2" />
+    <Members>
+      <Field Name="_Pfad" Hidden="true" />
+      <Field Name="_Zeilen" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAIBEAgAAAAAAAAAABAAIABAAAA=</HashCode>
+      <FileName>Textdatei.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Lotto">
+    <Position X="8" Y="4" Width="2" />
+    <Members>
+      <Field Name="_Land" Hidden="true" />
+      <Field Name="_Sortiert" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACIDAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Lotto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.Rahmen">
+    <Position X="10.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAAAAIAAAAAEAgAAAAAAAQAAAA=</HashCode>
+      <FileName>Rahmen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Lernen.FehlerAufgetretenEventArgs">
+    <Position X="8" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="_Ursache" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FehlerAufgetreten.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WIFI.Sisharp.Lernen.LottoLänder">
+    <Position X="5.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>Lotto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WIFI.Sisharp.Lernen.AusgabeModus">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAgAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entwicklungsbasis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="WIFI.Sisharp.Lernen.FehlerAufgetretenEventHandler">
+    <Position X="8" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>FehlerAufgetreten.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

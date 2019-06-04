@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="wifi.sisharp.training.wcf.MathService" CodeBehind="MathService.svc.cs" %>

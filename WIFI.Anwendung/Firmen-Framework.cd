@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Infrastruktur">
+    <Position X="0.5" Y="0.5" Height="0.291" Width="7.49" />
+  </Comment>
+  <Comment CommentText="Geschäftsdienste">
+    <Position X="0.5" Y="4.24" Height="0.291" Width="7.335" />
+  </Comment>
+  <Comment CommentText="Datendienste">
+    <Position X="8.25" Y="6.75" Height="0.291" Width="4.506" />
+  </Comment>
+  <Comment CommentText="Erweiterungen">
+    <Position X="8.75" Y="0.5" Height="0.291" Width="4.543" />
+  </Comment>
+  <Comment CommentText="Generisch">
+    <Position X="8.358" Y="4.234" Height="0.291" Width="4.506" />
+  </Comment>
+  <Class Name="WIFI.Anwendung.Anwendungskontext">
+    <Position X="0.5" Y="1" Width="2" />
+    <Members>
+      <Field Name="_AnwendungsdatenPfad" Hidden="true" />
+      <Field Name="_AnwendungsdatenPfadLokal" Hidden="true" />
+      <Field Name="_Anwendungspfad" Hidden="true" />
+      <Field Name="_Fenster" Hidden="true" />
+      <Field Name="_Sprachen" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAQAAgAAAACAQCAAAAACBCAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>Anwendungskontext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Anwendungsobjekt">
+    <Position X="3.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Anwendungsobjekt.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.Anwendung.FensterManager">
+    <Position X="5.75" Y="4.75" Width="2" />
+    <Members>
+      <Field Name="_Controller" Hidden="true" />
+      <Field Name="_Liste" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAQAAAEAAQAAAEEBAAAAAAAAAAAAAEgQAAAA=</HashCode>
+      <FileName>FensterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Controller.FensterXmlController">
+    <Position X="8.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\FensterXmlController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.SprachenManager">
+    <Position X="3.25" Y="4.75" Width="2" />
+    <Members>
+      <Field Name="_AktuelleSprache" Hidden="true" />
+      <Field Name="_Controller" Hidden="true" />
+      <Field Name="_Liste" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAEAAQAAAAMAAAAAAAAAACAAACAAAAAA=</HashCode>
+      <FileName>SprachenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Controller.SprachenXmlController">
+    <Position X="10.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Controller\SprachenXmlController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Erweiterungen.AssemblyInfo">
+    <Position X="8.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAACAAAAAABAAAAAAAAQBAAAAAAAAAAAA=</HashCode>
+      <FileName>Erweiterungen\AssemblyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.FehlerAufgetretenEventArgs">
+    <Position X="6" Y="1.75" Width="2" />
+    <Members>
+      <Field Name="_Ausnahme" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FehlerAufgetreten.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Generisch.XmlController&lt;T&gt;">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Generisch\XmlController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Verlauf">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <Members>
+      <Field Name="_VorwärtsPuffer" Hidden="true" />
+      <Field Name="_ZurückPuffer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAIAACAABAAABAAQAIAABEAgQAAIAAAAAAAAAEgEAA=</HashCode>
+      <FileName>Verlauf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Erweiterungen.Werkzeug">
+    <Position X="11.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Erweiterungen\Werkzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="WIFI.Anwendung.FehlerAufgetretenEventHandler" Collapsed="true">
+    <Position X="6" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FehlerAufgetreten.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

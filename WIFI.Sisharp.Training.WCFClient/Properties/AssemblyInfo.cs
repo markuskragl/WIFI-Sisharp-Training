@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WIFI.Sisharp.Training")]
+[assembly: AssemblyTitle("WIFI.Sisharp.Training.WCFClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WIFI.Sisharp.Training")]
+[assembly: AssemblyProduct("WIFI.Sisharp.Training.WCFClient")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b38cf8f7-211e-4134-8d09-2682be00b472")]
+[assembly: Guid("13d6ba8a-1932-4ddb-91a7-a3511ad1723c")]
 
 // Version information for an assembly consists of the following four values:
 //

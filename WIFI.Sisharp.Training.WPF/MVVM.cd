@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Model">
+    <Position X="0.823" Y="0.5" Height="0.292" Width="1.94" />
+  </Comment>
+  <Comment CommentText="View">
+    <Position X="3.437" Y="0.5" Height="0.292" Width="2.315" />
+  </Comment>
+  <Comment CommentText="ViewModel">
+    <Position X="6.51" Y="0.521" Height="0.292" Width="1.981" />
+  </Comment>
+  <Class Name="WIFI.Sisharp.Training.WPF.ViewModel.ViewModelBase">
+    <Position X="6.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.Sisharp.Training.WPF.ViewModel.ViewModelMain">
+    <Position X="6.5" Y="3.25" Width="2" />
+    <Members>
+      <Field Name="_SelectedPerson" Hidden="true" />
+      <Field Name="_TextProperty1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAACAAAAgAAAAAAAgggAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Sisharp.Training.WPF.MainWindow">
+    <Position X="3.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.Sisharp.Training.WPF.Model.Person">
+    <Position X="0.75" Y="1.25" Width="2" />
+    <Members>
+      <Field Name="_Age" Hidden="true" />
+      <Field Name="_FirstName" Hidden="true" />
+      <Field Name="_LastName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAEAAAAAIEEAAAAAgAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

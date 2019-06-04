@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WIFI.Sisharp.Training.WPF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SqlServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(LocalDB)\MSSQLLocalDB</Value>
+    </Setting>
+    <Setting Name="Datenbank" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AndritzHydro2019</Value>
+    </Setting>
+    <Setting Name="DatenbankPfad" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\wifi.sisharp.training.web\app_data</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

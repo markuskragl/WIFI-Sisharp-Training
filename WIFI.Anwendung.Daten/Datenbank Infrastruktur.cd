@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WIFI.Anwendung.Anwendungskontext">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WIFI.Anwendung.Daten.DatenAnwendungskontext">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatenAnwendungskontext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Anwendungsobjekt">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.Anwendung.Daten.DatenAnwendungsobjekt">
+    <Position X="3.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatenAnwendungsobjekt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
