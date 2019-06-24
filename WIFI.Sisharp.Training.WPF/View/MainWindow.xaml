@@ -14,7 +14,7 @@
     <Window.Resources>
         <vm:ViewModelMain x:Key="ViewModelMain"/>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.939*"/>
@@ -45,8 +45,7 @@
                             <ComboBox 
                                 ItemsSource="{Binding People}" 
                                 SelectedItem="{Binding SelectedPerson}" 
-                                DisplayMemberPath="FirstName" 
-                                Margin="5,0,0,5" 
+                                DisplayMemberPath="FirstName" Margin="5,0,0,5" 
                                 VerticalAlignment="Top"/>
                         </StackPanel>
                         <TextBox 
@@ -54,14 +53,10 @@
                             Text="{Binding TextProperty1, UpdateSourceTrigger=PropertyChanged}" 
                             Margin="5"/>
                         <TextBlock 
-                            FontWeight="Bold"
+                            FontWeight="Bold" 
                             Margin="5" 
-                            Text="{Binding TextProperty1, UpdateSourceTrigger=PropertyChanged}">
-                            <Run 
-                                Text="{Binding TextProperty1}"/>
-                            <Run 
-                                Text="Type a Text here '"/>
-                        </TextBlock>
+                            Text="The TextBox says '">
+                            <Run Text="{Binding TextProperty1}"/><Run Text="'"/></TextBlock>
                     </StackPanel>
                 </ScrollViewer>
                 <Button 

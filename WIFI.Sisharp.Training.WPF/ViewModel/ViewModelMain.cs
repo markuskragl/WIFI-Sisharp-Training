@@ -50,7 +50,7 @@ namespace WIFI.Sisharp.Training.WPF.ViewModel
             }
         }
 
-        string _TextProperty1 = null;
+        string _TextProperty1;
         public string TextProperty1
         {
             get
@@ -59,7 +59,7 @@ namespace WIFI.Sisharp.Training.WPF.ViewModel
             }
             set
             {
-                if (_TextProperty1 != null)
+                if (_TextProperty1 != value)
                 {
                     _TextProperty1 = value;
                     RaisePropertyChanged("TextProperty1");
