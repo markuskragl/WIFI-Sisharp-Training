@@ -11,13 +11,13 @@ namespace WIFI.Sisharp.Training.Delegate
         // declare delegate
         public delegate void Print(int value);
 
-        static void Main(string[] args)
+        static void Main()
         {
             // Print delegate points to PrintNumber
-            Print printDel = PrintNumber;
+            //Print printDel = PrintNumber;
 
             // or
-            // Print printDel = new Print(PrintNumber);
+            Print printDel = new Print(PrintNumber);
 
             printDel(100000);
             printDel(200);
@@ -27,6 +27,8 @@ namespace WIFI.Sisharp.Training.Delegate
 
             printDel(10000);
             printDel(200);
+
+            Console.Read();
         }
 
         public static void PrintNumber(int num)

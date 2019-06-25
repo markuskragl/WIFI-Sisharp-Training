@@ -40,7 +40,7 @@ namespace WIFI.Sisharp.Training.Schnittstellen
         }
         public void THREE()
         {
-            Console.WriteLine("This is THERE");
+            Console.WriteLine("This is Three");
         }
         public void FOUR()
         {

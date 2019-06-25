@@ -12,8 +12,6 @@ namespace WIFI.Sisharp.Training.UniqueIdentifier
         {
             Random probe = new Random();
 
-            
-
             for (int i = 0; i < 5; i++)
             {
                 int neu = probe.Next();
@@ -35,5 +33,4 @@ namespace WIFI.Sisharp.Training.UniqueIdentifier
             }
         }
     }
-
 }
