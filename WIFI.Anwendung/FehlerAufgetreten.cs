@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace WIFI.Anwendung
 {
     /// <summary>
-    /// Stellt die Methode dar, die das FehlerAufgetreten Ereignis behandeln
+    /// Stellt die Methode dar, die das 
+    /// Ereignis behandeln
     /// </summary>
     /// <param name="sender">Bei Ereignisbehandlern immer der erste Parameter.</param>
     /// <param name="e">Bei Ereignisbehandlern immer der zweite Parameter</param>

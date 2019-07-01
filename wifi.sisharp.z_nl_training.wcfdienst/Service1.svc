@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="wifi.sisharp.z_nl_training.wcfdienst.Service1" CodeBehind="Service1.svc.cs" %>
