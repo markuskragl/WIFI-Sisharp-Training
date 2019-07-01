@@ -10,6 +10,7 @@ namespace WIFI.Sisharp.Training.UniqueIdentifier
     {
         static void Main()
         {
+            //Unique identifier as int
             Random probe = new Random();
 
             for (int i = 0; i < 5; i++)
@@ -18,6 +19,10 @@ namespace WIFI.Sisharp.Training.UniqueIdentifier
 
                 Console.WriteLine(neu.ToString());
             }
+
+            Guid id = Guid.NewGuid();
+            Console.WriteLine(id);
+
             Console.Read();
 
         }
@@ -32,5 +37,10 @@ namespace WIFI.Sisharp.Training.UniqueIdentifier
                 return getrandom.Next(min, max);
             }
         }
+
+
+
+
+
     }
 }
